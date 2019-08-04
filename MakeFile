@@ -1,0 +1,6 @@
+TARGET=ilegine.exe
+OUTDIR=build
+LIBS=user32.lib
+
+ilengine:
+	cl source/win32/win32_ile.cpp /nologo /MT /Fe$(OUTDIR)\$(TARGET) /Fo$(OUTDIR)\ /link /subsystem:windows $(LIBS)
