@@ -1,0 +1,6 @@
+﻿  win32_ile.cpp
+d:\repositories\ilengine\source\win32\win32_ile.cpp(4): warning C4007: 'WinMain': must be '__stdcall'
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  win32_ile.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  win32_ile.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ILEngine.vcxproj -> D:\repositories\ILEngine\source\Debug\ILEngine.exe
